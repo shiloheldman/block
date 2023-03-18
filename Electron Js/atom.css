@@ -1,0 +1,10 @@
+.red{
+color: red;
+}
+.size-50{
+font-size: 50px;
+}
+.rotate-360{
+
+    transform: rotate(360deg);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./atom.css">
+    <title>App Project</title>
+</head>
+<body>
+<div class="alaphent-chat__item">
+    <header>
+        <nav class="header-nav">
+            <a href="https://t.me/srueok">ChatLINK</a>
+            <a href="#">Instagram</a>
+            <a href="#">MyAccount</a>
+        </nav>
+        <div class="border-line">
+            <div class="progress">
+                
+            </div>
+        </div>
+        </header>
+    <main class="main-img">
+         <div class="bgc-order">
+          <div class="overlay">
+           <h2>
+            Наведи или кликни чтобы узнать, что за пидр скрывается за блоком
+           </h2>
+          </div>
+         </div>
+         <h1>hELLO</h1>
+    </main>
+</div>
+<div class="flex-main" id="flex-main">
+    <div class="parent">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4"> </div>
+        <div class="div5"> </div>
+        <div class="div6"> </div>
+        <div class="div7"> </div>
+        <div class="div8"> </div>
+        <div class="div9"> </div>
+     
+       
+</div>
+<script src="./three.min.js"></script>
+<script src="./vanta.waves.min.js"></script>
+<script src="./vanta.birds.min.js"></script>
+<script>
+    VANTA.WAVES({
+      el: ".alaphent-chat__item",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x194559
+    })
+    </script>
+    <script>
+        VANTA.BIRDS({
+          el: "#flex-main",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 700.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x194559
+        })
+        </script>
+</body>
+</html>
